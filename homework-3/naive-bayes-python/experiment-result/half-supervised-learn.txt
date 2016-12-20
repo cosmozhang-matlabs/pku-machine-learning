@@ -1,0 +1,6 @@
+using half-supervised
+Iteration:   1     log(jointProb): -17607.628919
+Iteration:   2     log(jointProb): -17601.216787
+Iteration:   3     log(jointProb): -17600.885052
+Iteration:   4     log(jointProb): -17600.885052
+[Finished in 4.9s]

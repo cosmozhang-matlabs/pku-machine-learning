@@ -1,0 +1,10 @@
+using unsupervised
+Iteration:   1     log(jointProb): -67603.117163
+Iteration:   2     log(jointProb): -30768.618027
+Iteration:   3     log(jointProb): -27747.530188
+Iteration:   4     log(jointProb): -19095.486203
+Iteration:   5     log(jointProb): -17655.150567
+Iteration:   6     log(jointProb): -17649.689989
+Iteration:   7     log(jointProb): -17649.229950
+Iteration:   8     log(jointProb): -17649.229950
+[Finished in 7.3s]
