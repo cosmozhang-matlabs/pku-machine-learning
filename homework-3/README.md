@@ -21,3 +21,19 @@ M步：
 
 半监督学习：
 在初始化时，不随机分配标签，而是根据有标签数据训练朴素贝叶斯模型，并对所有sample进行预测，作为初始化时的标签
+
+===============================================
+
+代码在naive-bayes-python目录下
+
+gen_random_data.py: 随机生成数据集的代码。生成方法：对每一个类别，确定一个特异的中心特征，在生成数据集时，首先生成类别标签，然后根据类别标签选取对应的中心特征，对每个特征点，按照某一特定概率进行变异（替换为其他的随机值），最后作为样本的特征。
+supervised.py: 包含了NaiveBayesClassifier类，它是一个自己实现的有监督朴素贝叶斯分类器。
+
+test_supervised_learn.py: 有监督学习实例脚本。
+
+unsupervised.py: 包含了EMNaiveBayesCluster类，实现了基于EM算法的无监督/半监督朴素贝叶斯聚类器。
+
+test_unsupervised_learn.py: 无监督/半监督学习实例脚本。
+
+experiment_result: 目录中包含了程序运行结果和所用的数据集。
+
